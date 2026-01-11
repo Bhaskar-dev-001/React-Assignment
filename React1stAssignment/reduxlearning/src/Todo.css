@@ -1,0 +1,85 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+.todo-section{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;     
+    margin-bottom: 20px;
+    color: #333;
+}
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;         
+    font-size: 16px;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+
+    background-color: #28a745;  
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #218838;
+}
+
+.routing{
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+
+}
+
+.todos{
+    margin-top: 20px;
+    border: 3px solid #28a745 ;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+.todo-display{  
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #28a745;
+}
+.deletetodo{
+    padding: 5px 10px;
+    background-color: #dc3545;          
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;    
+}
+.deletetodo:hover{
+    background-color: #c82333;
+}
+li:last-child{
+    border-bottom: none;
+}
+
