@@ -3,6 +3,7 @@ import { BrowserRouter } from "react-router-dom";
 import App from "./App";
 import { UserProvider } from "./context/UserContext";
 
+
 const users = window.__INITIAL_DATA__ || [];
 
 hydrateRoot(

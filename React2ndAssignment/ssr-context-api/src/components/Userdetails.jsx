@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 import { useUserContext } from "../context/UserContext";
+import '../components/UserDetails.css';
 import '../App.css';
+
 
 function Userdetails(){
     const {id} = useParams();

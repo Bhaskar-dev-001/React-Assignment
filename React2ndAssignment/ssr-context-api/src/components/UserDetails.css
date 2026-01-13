@@ -1,0 +1,12 @@
+.user-details-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.user-details-container p{
+    font-size: 18px;
+    margin: 10px 0;
+    
+}

@@ -1,0 +1,36 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+
+}
+.user-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.users{
+    list-style-type: none;
+    width: 50%;
+
+}
+
+.user-list{
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;  
+}
+.user-list:hover {
+    background-color: #f0f0f0;
+}
+.heading {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}   
+    
